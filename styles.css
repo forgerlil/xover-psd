@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Fasthand&family=Gochi+Hand&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,3 +7,60 @@
   font-family: "Roboto", sans-serif;
 }
 
+h1, h2 {
+    font-family: 'Gochi Hand';
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+i {
+    color: #000;
+}
+
+header {
+    background-image: url('./src/header-bg.png');
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    padding: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 2em;
+}
+
+#searchContainer {
+    padding: .5rem;
+    background-color: white;
+    border-radius: 10%/50%;
+}
+
+#searchContainer input {
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: .5em;
+    margin: .25em 1em;
+}
